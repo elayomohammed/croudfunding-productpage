@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+#product-page {
+  background-color: hsla(0, 20%, 94%, 0.992);
+  height: 100%;
+  width:fit-content;
+}
+
+/*desktop screen*/
+@media screen and (max-width: 1440px) {
+  /*product page header section*/
+  #navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30%;
+    position: absolute;
+    top: 26px;
+    left: 550px;
+  }
+
+  .nav-hr {
+    display: none;
+  }
+
+  #menu-btn {
+    display: none;
+  }
+
+  #title {
+    color: white;
+    position: absolute;
+    top: 1px;
+    left: 105px;
+    font-size: 18px;
+  }
+  #mobileHeaderIMG {
+    display: none;
+  }
+
+  #desktopHeaderIMG {
+    width: 100%;
+  }
+
+  #navigation a {
+    text-decoration: none;
+  }
+
+  #navigation a li {
+    list-style-type: none;
+    color: white;
+  }
+}
+
+/*mobile screen*/
+@media screen and (max-width: 415px) {
+  /*product page header section*/
+  #product-page {
+    width: 400px;
+  }
+
+  #product-page-header {
+    width: 400px;
+  }
+
+  #title-and-menu-btn {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #menu-btn {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 40px;
+    right: 17px;
+  }
+
+  #open-menu-icon {
+    cursor: pointer;
+  }
+
+  #close-menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+
+  #title {
+    color: white;
+    position: absolute;
+    top: 14px;
+    left: 25px;
+    font-size: 18px;
+  }
+
+  #desktopHeaderIMG{
+    display: none;
+  }
+
+  #mobileHeaderIMG {
+    width: 100%;
+    display: block;
+  }
+
+  #navigation {
+    display: none;
+    flex-direction: column;
+    width: 88.5%;
+    height: 214px;
+    position: absolute;
+    top: 92px;
+    left: 7%;
+    right: 5%;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .nav-hr {
+    display: block;
+    margin-top: 30px;
+    color: rgb(250, 255, 254);
+  }
+
+  #navigation a {
+    text-decoration: none;
+  }
+
+  #navigation a li {
+    list-style-type: none;
+    color: black;
+    padding-left: 20px;
+  }
+
+}

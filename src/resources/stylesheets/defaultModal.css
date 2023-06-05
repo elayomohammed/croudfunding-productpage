@@ -1,0 +1,64 @@
+/*desktop screen*/
+@media screen and (max-width: 1440px) {
+    #default-modal {
+        width: 56%;
+        margin-left: 22%;
+        margin-right: 22%;
+        position: relative;
+        top: -60px;
+    }
+
+    #product-header {
+        background-color: white;
+        border-radius: 5px;
+        padding-bottom: 20px;
+    }
+
+    #logo {
+        position: relative;
+        right: -215px;
+        top: -28px;
+    }
+
+    #support-and-bookmark {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    #support-project {
+        width: 200px;
+        margin-top: 10px;
+        border-radius: 10px;
+        height: 40px;
+        background-color: hsl(208, 79%, 39%);
+    }
+
+    #bookmark img {
+        height: 50px;
+    }
+}
+
+/*mobile screen*/
+@media screen and (max-width: 415px) {
+    #default-modal {
+        width: 88.5%;
+        background-color: white;
+        position: absolute;
+        top: 260px;
+        right: -17.5%;
+        border-radius: 5px;
+    }
+
+    #logo {
+        position: relative;
+        right: -137px;
+        top: -28px;
+    }
+
+    #support-and-bookmark {
+        width: 80%;
+        margin: 0% 10% 0% 10%;
+    }
+}
