@@ -1,4 +1,11 @@
 /*desktop screen*/
+.mobile-stats-hr {
+    display: none;
+}
+
+.stats-title {
+    text-align: center;
+}
 @media screen and (max-width: 1440px) {
     #stats-card {
         background-color: white;
@@ -37,11 +44,33 @@
         height: 7px;
         width: 350px;
         border-radius: 5px;
-        background-color: hsl(208, 79%, 39%);
+        background-color: #06b4c0;
     }
 }
 
 /*mobile screen*/
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 415px) {
+    .mobile-stats-hr {
+        display: block;
+    }
 
+    .desktop-stats-hr {
+        display: none;
+    }
+
+    #data {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #scale {
+        height: 7px;
+        width: 275px;
+    }
+
+    #calibrator {
+        height: 7px;
+        width: 200px;
+    }
 }

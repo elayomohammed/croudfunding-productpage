@@ -39,7 +39,7 @@ const App = () => {
           <a href='#incoming'><li className='navigation-links'>About</li><hr className='nav-hr' /></a>
           <a href='#incoming'><li className='navigation-links'>Discover</li><hr className='nav-hr' /></a>
           <a href='#incoming'><li className='navigation-links'>Get Started</li></a>
-        </nav>
+      </nav>
     </div>
   );
 }

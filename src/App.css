@@ -9,7 +9,7 @@ li {
 #product-page {
   background-color: hsla(0, 20%, 94%, 0.992);
   height: 100%;
-  width:fit-content;
+  width: 100%;
 }
 
 /*desktop screen*/
@@ -61,10 +61,6 @@ li {
 /*mobile screen*/
 @media screen and (max-width: 415px) {
   /*product page header section*/
-  #product-page {
-    width: 400px;
-  }
-
   #product-page-header {
     width: 400px;
   }

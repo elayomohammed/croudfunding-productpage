@@ -1,11 +1,12 @@
+import React from 'react';
 import '../stylesheets/defaultModal.css';
 import logo from '../images/logo-mastercraft.svg';
 import bookmark from '../images/icon-bookmark.svg';
 import StatsCard from './StatsCard';
+import ProductDetails from './ProductDetails';
 
 const DefaultModal = () =>{
     return(
-        <>
         <div id='default-modal'>
             <div id='product-header'>
                 <img id='logo' src={logo} alt=''></img><br />
@@ -17,8 +18,8 @@ const DefaultModal = () =>{
                 </div>
             </div>
             <StatsCard />
+            <ProductDetails />
         </div>
-        </>
     )
 }
 
