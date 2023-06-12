@@ -2,17 +2,26 @@ import React from 'react';
 import '../stylesheets/productlist.css';
 //import { useState } from 'react';
 
+const handleSelectRewardAndBackThisProjectBtn = (event) =>{
+    if(event){
+        document.getElementById('back-this-project').style.display = 'block';
+        document.getElementById('default-modal').style.backgroundColor = '#f1f1ee';
+        document.getElementById('product-details').style.backgroundColor = '#f1f1ee';
+        document.getElementById('product-page').style.backgroundColor = '#f1f1ee';
+    }
+}
+
 const ProductList = (props) =>{
     return(
         <div id='product-lists'>
             <div id='list-header-and-threshold'>
-                <h3 id='list-header'>{props.productdetails.name}</h3>
-                <p id='list-threshold'>{props.productdetails.threshold}</p>
+                <h3 id='list-header'>{props.data.name}</h3>
+                <p id='list-threshold'>{props.data.threshold}</p>
             </div>
-            <p id='product-list-details'>{props.productdetails.details}</p>
+            <p id='product-list-details' className='greyText'>{props.data.details}</p>
             <div id='product-count-and-select'>
-                <p><span id='bold-count'>{props.productdetails.count}</span> left</p>
-                <button id='select-product-btn' type='button'>Select Reward</button>
+                <p className='greyText'><span id='bold-count'>{props.data.count}</span> left</p>
+                <button id='select-product-btn' type='button' onClick={handleSelectRewardAndBackThisProjectBtn}>Select Reward</button>
             </div>
         </div>
     )
