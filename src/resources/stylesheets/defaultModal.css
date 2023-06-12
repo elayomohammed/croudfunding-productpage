@@ -6,6 +6,7 @@
         margin-right: 22%;
         position: relative;
         top: -60px;
+        border-radius: 10px;
     }
 
     #product-header {
@@ -34,10 +35,15 @@
         border-radius: 50px;
         height: 30px;
         background-color: #06b4c0;
+        cursor: pointer;
+    }
+    #support-project:hover {
+        scale: 1.1;
     }
 
     #bookmark img {
         height: 50px;
+        cursor: pointer;
     }
 }
 

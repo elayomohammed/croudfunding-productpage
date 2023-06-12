@@ -1,8 +1,13 @@
+.greyText {
+    color: rgb(106, 104, 104);
+}
+
 @media screen and (max-width: 1440px) {
     #product-lists {
         border: solid rgba(226, 229, 231, 0.917) 1px;
         padding: 0px 20px 15px 20px;
         margin-top: 20px;
+        border-radius: 10px;
     }
     
     #list-header-and-threshold {
@@ -24,6 +29,9 @@
         border-radius: 50px;
         height: 30px;
         background-color: #06b4c0;
+    }
+    #select-product-btn:hover {
+        scale: 1.1;
     }
 
     #bold-count {

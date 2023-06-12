@@ -1,0 +1,128 @@
+.greyText {
+    color: rgb(106, 104, 104);
+}
+#backThisProject {
+    border: solid rgba(226, 229, 231, 0.917) 0.5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#productInfo {
+    border: solid rgba(226, 229, 231, 0.917) 1px;
+    padding: 0px 20px 0px 20px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+
+#productNamePledgeAndCount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#productNameAndPledgeThreshold {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    position: relative;
+    left: -8px;
+}
+#productPledgeThreshold {
+    color: #06b4c0;
+    position: relative;
+    left: -7px;
+}
+
+#radio {
+    cursor: pointer;
+    position: relative;
+    left: -10px;
+}
+
+#productCount {
+    width: 20%;
+}
+
+#product-details {
+    margin-top: 0px;
+    padding-bottom: 0%;
+    position: relative;
+    top: -13px;
+}
+
+.boldFonts {
+    font-weight: 700;
+}
+
+#selectedBackThisProject {
+    display: none;
+    flex-direction: row;
+    height: 60px;
+}
+#pledgeAmountInputAndContinueBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    right: -165px;
+}
+
+#pledgeAmountLabel {
+    position: relative;
+    left: -10px;
+}
+#pledgeAmountInput {
+    width: 60px;
+    height: 25.5px;
+    border: solid #06b4c0 1px;
+    border-radius: 50px;
+    position: relative;
+    left: -8px;
+}
+
+#continuePledge {
+    height: 30px;
+    border: solid #06b4c0 0.5px;
+    border-radius: 50px;
+    background-color: #06b4c0;
+}
+
+@media screen and (max-width: 415px) {
+    #radio {
+        left: 0px;
+        top: -20px;
+    }
+
+    #productPledgeThreshold {
+        left: 0px;
+        top: -22px;
+    }
+
+    #productNameAndPledgeThreshold {
+        width: 80%;
+        flex-direction: column;
+        left: 15px;
+    }
+
+    #product-details {
+        top: -30px;
+        left: -15px;
+    }
+
+    #productCount {
+        position: relative;
+        top: 145px;
+        left: -206px;
+    }
+
+    #selectedBackThisProject {
+        flex-direction: column;
+        height: 85px;
+        align-items: center;
+    }
+
+    #pledgeAmountInputAndContinueBtn {
+        right: -12px;
+    }
+}

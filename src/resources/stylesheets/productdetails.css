@@ -1,4 +1,36 @@
+.greyText {
+    color: rgb(106, 104, 104);
+}
+
 #product-details {
     background-color: white;
     padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+#back-this-project {
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    position: absolute;
+    top: -77px;
+    display: none;
+    border-radius: 10px;
+}
+
+#close-modal-icon:hover {
+    scale: 1.2;
+    rotate: 25deg;
+}
+
+@media screen and (max-width: 1440px) {
+    #title-and-closemodal-btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #close-modal-icon {
+        height: 15px;
+        cursor: pointer;
+    }
 }
