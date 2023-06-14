@@ -19,7 +19,7 @@
     background-color: #06b4c0;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 650px) {
     #pledgeSuccess {
         width: 70%;
         position: relative;
