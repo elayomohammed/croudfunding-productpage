@@ -18,7 +18,7 @@ const StatsCard = () => {
                 </div>
             </div>
             <div id='scale-and-calibrator'>
-                <p id='scale'><li id='calibrator'></li></p>
+                <p id='scale'><p id='calibrator'></p></p>
             </div>
         </div>
     );

@@ -15,6 +15,17 @@ const DefaultModal = () =>{
             document.getElementById('product-page').style.backgroundColor = '#f1f1ee';
         }
     }
+
+    const handleBookmark = (event) => {
+        const bookmark = document.getElementById('bookmark-check');
+        if(event){
+            if(bookmark.style.color === 'rgb(106, 104, 104)'){
+                bookmark.style.color = '#06b4c0'
+            }else{
+                bookmark.style.color = 'rgb(106, 104, 104)';
+            }
+        }
+    }
     return(
         <div id='default-modal'>
             <div id='product-header'>
@@ -23,7 +34,10 @@ const DefaultModal = () =>{
                 <p style={{textAlign: 'center', marginTop: -8, color: 'rgb(106, 104, 104)'}}>A beautiful & handcrafted monitor stand to reduce neck and eye strain.</p>
                 <div id='support-and-bookmark'>
                     <button id='support-project' type='button' onClick={handleSelectRewardAndBackThisProjectBtn}>Back this project</button>
-                    <li id='bookmark'><img src={bookmark} alt=''></img></li>
+                    <div id='bookmark' onClick={handleBookmark}>
+                        <img src={bookmark} alt='' />
+                        <p id='bookmark-check'>Bookmark</p>
+                    </div>
                 </div>
             </div>
             <StatsCard />
