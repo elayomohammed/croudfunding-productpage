@@ -17,7 +17,7 @@
 
 #logo {
     position: relative;
-    left: 42.7%;
+    left: 43.1%;
     top: -28px;
 }
 
@@ -56,10 +56,10 @@
 /*mobile screen*/
 @media screen and (max-width: 650px) {
     #default-modal {
-        width: 88.5%;
-        position: absolute;
-        top: 260px;
-        right: -17.5%;
+        width: 88%;
+        padding: 0% 6% 0% 6%;
+        margin-left: 0%;
+        margin-right: 0%;
     }
 
     /*#logo {

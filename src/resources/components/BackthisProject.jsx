@@ -33,7 +33,7 @@ const BackthisProject = (props) =>{
                 <p id='product-details' className='greyText'>{props.data.details}</p>
             </div>
             <div id='selectedBackThisProject'>
-                <p style={{marginLeft: '20px'}} className='greyText'>Enter your pledge</p>
+                <p style={{marginLeft: '10px', width: '170px'}} className='greyText'>Enter your pledge</p>
                 <div id='pledgeAmountInputAndContinueBtn'>
                     <lebel id='pledgeAmountLabel'>$</lebel><input type='text' id='pledgeAmountInput' style={{textAlign: 'center'}} />
                     <button type='button' id='continuePledge' onClick={handleContinuePledgeBtn}>Continue</button>
