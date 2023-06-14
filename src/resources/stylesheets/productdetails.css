@@ -9,10 +9,11 @@
 }
 
 #back-this-project {
+    width: 96%;
+    padding: 1% 2% 1% 2%;
     background-color: white;
-    padding: 10px 20px 10px 20px;
-    position: absolute;
-    top: -77px;
+    position: relative;
+    top: -1243px;
     display: none;
     border-radius: 10px;
 }
@@ -33,6 +34,8 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 415px) {
-    
+@media screen and (max-width: 650px) {
+    #back-this-project {
+        top: -1625px;
+    }
 }
