@@ -55,7 +55,7 @@ li {
 }
 
 /*mobile screen*/
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 650px) {
   #product-page {
     width: 100%;
   }
