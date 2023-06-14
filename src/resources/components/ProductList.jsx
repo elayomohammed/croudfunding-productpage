@@ -6,7 +6,7 @@ const handleSelectRewardAndBackThisProjectBtn = (event) =>{
     if(event){
         document.getElementById('back-this-project').style.display = 'block';
         document.getElementById('default-modal').style.backgroundColor = '#f1f1ee';
-        document.getElementById('product-details').style.backgroundColor = '#f1f1ee';
+        document.getElementById('product-details-modal').style.backgroundColor = '#f1f1ee';
         document.getElementById('product-page').style.backgroundColor = '#f1f1ee';
     }
 }

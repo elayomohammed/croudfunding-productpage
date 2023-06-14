@@ -4,7 +4,7 @@
     background-color: white;
     width: 60%;
     position: relative;
-    top: -1050px;
+    top: -1060px;
     left: 82px;
     padding: 20px;
     border-radius: 5PX;
@@ -17,4 +17,13 @@
     border-radius: 50px;
     border: solid #06b4c0 0.5px;
     background-color: #06b4c0;
+}
+
+@media screen and (max-width: 415px) {
+    #pledgeSuccess {
+        width: 70%;
+        position: relative;
+        top: -1612px;
+        left: 30px;
+    }
 }

@@ -34,13 +34,13 @@ const ProductDetails = () =>{
         if(event){
             document.getElementById('back-this-project').style.display = 'none';
             document.getElementById('default-modal').style.backgroundColor = 'white';
-            document.getElementById('product-details').style.backgroundColor = 'white';
+            document.getElementById('product-details-modal').style.backgroundColor = 'white';
             document.getElementById('product-page').style.backgroundColor = 'hsla(0, 20%, 94%, 0.992)';
         }
     }
     return(
         <>
-        <div id='product-details'>
+        <div id='product-details-modal'>
             <h2 id='about-project-header'>About this project</h2>
             <p id='about-project-details' className='greyText'>
                 The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen 
@@ -65,7 +65,7 @@ const ProductDetails = () =>{
             <BackthisProject data={mahoganySpecialEdition} />
             <BackthisProject data={blackEditionStand} />
         </div>
-            <PledgeSucess />
+        <PledgeSucess />
         </>
     )
 }

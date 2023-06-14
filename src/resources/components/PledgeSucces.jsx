@@ -7,7 +7,7 @@ const PledgeSucess = () =>{
             document.getElementById('back-this-project').style.backgroundColor = 'white';
             document.getElementById('pledgeSuccess').style.display = 'none';
             document.getElementById('default-modal').style.backgroundColor = 'white';
-            document.getElementById('product-details').style.backgroundColor = 'white';
+            document.getElementById('product-details-modal').style.backgroundColor = 'white';
             document.getElementById('stats-card').style.backgroundColor = 'white';
             document.getElementById('product-header').style.backgroundColor = 'white';
             document.getElementById('product-page').style.backgroundColor = 'hsla(0, 20%, 94%, 0.992)';
