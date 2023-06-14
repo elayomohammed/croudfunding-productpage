@@ -56,9 +56,13 @@ li {
 
 /*mobile screen*/
 @media screen and (max-width: 415px) {
+  #product-page {
+    width: 100%;
+  }
+
   /*product page header section*/
   #product-page-header {
-    width: 400px;
+    width: 100%;
   }
 
   #title-and-menu-btn {
