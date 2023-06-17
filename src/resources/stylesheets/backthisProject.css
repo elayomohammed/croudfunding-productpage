@@ -1,14 +1,14 @@
 .greyText {
     color: rgb(106, 104, 104);
 }
-#backThisProject {
+.backThisProject {
     border: solid rgba(226, 229, 231, 0.917) 0.5px;
     margin-bottom: 20px;
     border-radius: 10px;
     width: 100%;
 }
 
-#productInfo {
+.productInfo {
     border: solid rgba(226, 229, 231, 0.917) 1px;
     width: 96%;
     padding: 1% 0.5% 0% 3.5%;
@@ -16,13 +16,13 @@
     border-radius: 10px;
 }
 
-#productNamePledgeAndCount {
+.productNamePledgeAndCount {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#productNameAndPledgeThreshold {
+.productNameAndPledgeThreshold {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -32,40 +32,36 @@
 
 }
 
-#productPledgeThreshold {
+.productPledgeThreshold {
     color: #06b4c0;
     position: relative;
     left: -5px;
 }
 
-#radio {
+.radio {
     cursor: pointer;
-    position: relative;
-    left: -1%;
-    top: -0.5;
+    width: 10px;
+    height: 10px;
+    border: solid black 1px;
+    border-radius: 50px;
 }
-
-#productCount {
+.productCount {
     width: 13%;
 }
 
-#product-details {
+.product-details {
     margin-top: 0px;
     padding-bottom: 0%;
     position: relative;
     top: -1%;
 }
 
-.boldFonts {
-    font-weight: 700;
-}
-
-#selectedBackThisProject {
+.selectedBackThisProject {
     display: none;
     flex-direction: row;
     height: 60px;
 }
-#pledgeAmountInputAndContinueBtn {
+.pledgeAmountInputAndContinueBtn {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -73,11 +69,11 @@
     right: -30%;
 }
 
-#pledgeAmountLabel {
+.pledgeAmountLabel {
     position: relative;
     left: -10px;
 }
-#pledgeAmountInput {
+.pledgeAmountInput {
     width: 25%;
     height: 40%;
     border: solid #06b4c0 1px;
@@ -86,7 +82,7 @@
     left: -8px;
 }
 
-#continuePledge {
+.continuePledge {
     height: 41.5%;
     border: solid #06b4c0 0.5px;
     border-radius: 50px;
@@ -94,40 +90,38 @@
 }
 
 @media screen and (max-width: 650px) {
-    #productInfo {
+    .productInfo {
         width: 94%;
-        padding: 4% 2% 2% 2%;
+        padding: 0% 2% 0% 2%;
+        margin: 0px;
     }
 
-    #backThisProject {
+    .backThisProject {
         border: solid rgba(226, 229, 231, 0.917) 0.5px;
+        padding-bottom: 0px;
         width: 100%;
     }
-    
-    #radio {
-        left: 0.5%;
-        top: -10px;
-    }
 
-    #productPledgeThreshold {
+    .productPledgeThreshold {
         left: 0px;
         top: -22px;
     }
 
-    #productNameAndPledgeThreshold {
+    .productNameAndPledgeThreshold {
         width: 70%;
         flex-direction: column;
         left: 2%;
         top: -2%;
     }
 
-    #product-details {
+    .product-details {
         width: 100%;
         top: -30px;
         left: 4px;
+        margin-bottom: 0px;
     }
 
-    #productCount {
+    .productCount {
         width: 19%;
         height: fit-content;
         padding: 0px;
@@ -136,18 +130,18 @@
         top: 13px;
     }
 
-    #selectedBackThisProject {
+    .selectedBackThisProject {
         flex-direction: row;
         height: 100px;
         width: 100%;
         align-items: center;
     }
 
-    #pledgeAmountInputAndContinueBtn {
+    .ledgeAmountInputAndContinueBtn {
         right: -35px;
     }
 
-    #productNamePledgeAndCount {
+    .productNamePledgeAndCount {
         display: flex;
         flex-direction: row;
         padding: 0px;

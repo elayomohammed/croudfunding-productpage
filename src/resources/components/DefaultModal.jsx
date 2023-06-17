@@ -20,7 +20,7 @@ const DefaultModal = () =>{
         const bookmark = document.getElementById('bookmark-check');
         if(event){
             if(bookmark.style.color === 'rgb(106, 104, 104)'){
-                bookmark.style.color = '#06b4c0'
+                bookmark.style.color = '#06b4c0';
             }else{
                 bookmark.style.color = 'rgb(106, 104, 104)';
             }

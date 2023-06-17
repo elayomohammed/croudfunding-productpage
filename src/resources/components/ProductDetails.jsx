@@ -60,10 +60,7 @@ const ProductDetails = () =>{
                 <img id='close-modal-icon' onClick={handleModalCloseBtn} src={closeModalIcon} alt='' />
             </div>
             <p style={{marginTop: '0px'}} className='greyText'>Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?</p>
-            <BackthisProject data={noReward} />
-            <BackthisProject data={bambooStand} />
-            <BackthisProject data={mahoganySpecialEdition} />
-            <BackthisProject data={blackEditionStand} />
+            <BackthisProject data1={noReward} data2={bambooStand} data3={mahoganySpecialEdition} data4={blackEditionStand} />
         </div>
         <PledgeSucess />
         </>
