@@ -59,14 +59,15 @@
 .selectedBackThisProject {
     display: none;
     flex-direction: row;
-    height: 60px;
+    width: 100%;
 }
 .pledgeAmountInputAndContinueBtn {
     display: flex;
     flex-direction: row;
     align-items: center;
     position: relative;
-    right: -30%;
+    right: -15%;
+    width: 100%;
 }
 
 .pledgeAmountLabel {
