@@ -66,7 +66,7 @@
     flex-direction: row;
     align-items: center;
     position: relative;
-    right: -15%;
+    right: -35%;
     width: 100%;
 }
 
@@ -138,8 +138,8 @@
         align-items: center;
     }
 
-    .ledgeAmountInputAndContinueBtn {
-        right: -35px;
+    .pledgeAmountInputAndContinueBtn {
+        right: -21%;
     }
 
     .productNamePledgeAndCount {

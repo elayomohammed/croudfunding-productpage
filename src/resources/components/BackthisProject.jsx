@@ -7,10 +7,12 @@ const BackthisProject = (props) =>{
         if(event){
             if(document.getElementById('selectedBackThisProject1').style.display ==='flex'){
                 document.getElementById('selectedBackThisProject1').style.display = 'none';
+                document.getElementById('radio1').style.backgroundColor = 'white';
                 document.getElementById('backThisProject1').style.border = 'solid rgba(226, 229, 231, 0.917) 0.5px';   
             }else{
                 document.getElementById('selectedBackThisProject1').style.display = 'flex';
                 document.getElementById('backThisProject1').style.border = 'solid #06b4c0 0.5px';
+                document.getElementById('radio1').style.backgroundColor = '#06b4c0';
             }
         }
     }
@@ -18,10 +20,12 @@ const BackthisProject = (props) =>{
         if(event){
             if(document.getElementById('selectedBackThisProject2').style.display ==='flex'){
                 document.getElementById('selectedBackThisProject2').style.display = 'none';
+                document.getElementById('radio2').style.backgroundColor = 'white';
                 document.getElementById('backThisProject2').style.border = 'solid rgba(226, 229, 231, 0.917) 0.5px';   
             }else{
                 document.getElementById('selectedBackThisProject2').style.display = 'flex';
                 document.getElementById('backThisProject2').style.border = 'solid #06b4c0 0.5px';
+                document.getElementById('radio2').style.backgroundColor = '#06b4c0';
             }
         }
     }
@@ -29,10 +33,12 @@ const BackthisProject = (props) =>{
         if(event){
             if(document.getElementById('selectedBackThisProject3').style.display ==='flex'){
                 document.getElementById('selectedBackThisProject3').style.display = 'none';
+                document.getElementById('radio3').style.backgroundColor = 'white';
                 document.getElementById('backThisProject3').style.border = 'solid rgba(226, 229, 231, 0.917) 0.5px';   
             }else{
                 document.getElementById('selectedBackThisProject3').style.display = 'flex';
                 document.getElementById('backThisProject3').style.border = 'solid #06b4c0 0.5px';
+                document.getElementById('radio3').style.backgroundColor = '#06b4c0';
             }
         }
     }
@@ -40,10 +46,12 @@ const BackthisProject = (props) =>{
         if(event){
             if(document.getElementById('selectedBackThisProject4').style.display ==='flex'){
                 document.getElementById('selectedBackThisProject4').style.display = 'none';
+                document.getElementById('radio4').style.backgroundColor = 'white';
                 document.getElementById('backThisProject4').style.border = 'solid rgba(226, 229, 231, 0.917) 0.5px';   
             }else{
                 document.getElementById('selectedBackThisProject4').style.display = 'flex';
                 document.getElementById('backThisProject4').style.border = 'solid #06b4c0 0.5px';
+                document.getElementById('radio4').style.backgroundColor = '#06b4c0';
             }
         }
     }
@@ -62,7 +70,7 @@ const BackthisProject = (props) =>{
         <div className='backThisProject' id='backThisProject1'>
             <div className='productInfo'>
                 <div className='productNamePledgeAndCount'>
-                    <p className='radio' onClick={handleBackThisProject1}></p>
+                    <p id='radio1' className='radio' onClick={handleBackThisProject1}></p>
                     <div className='productNameAndPledgeThreshold'>
                         <p style={{fontWeight: 700}}>{props.data1.name}</p>
                         <p className='productPledgeThreshold' style={{fontWeight: 700}}>{props.data1.threshold}</p>
@@ -83,7 +91,7 @@ const BackthisProject = (props) =>{
         <div className='backThisProject' id='backThisProject2'>
             <div className='productInfo'>
                 <div className='productNamePledgeAndCount'>
-                    <p className='radio' onClick={handleBackThisProject2}></p>
+                    <p id='radio2' className='radio' onClick={handleBackThisProject2}></p>
                     <div className='productNameAndPledgeThreshold'>
                         <p style={{fontWeight: 700}}>{props.data2.name}</p>
                         <p className='productPledgeThreshold' style={{fontWeight: 700}}>{props.data2.threshold}</p>
@@ -104,7 +112,7 @@ const BackthisProject = (props) =>{
         <div className='backThisProject' id='backThisProject3'>
             <div className='productInfo'>
                 <div className='productNamePledgeAndCount'>
-                    <p className='radio' onClick={handleBackThisProject3}></p>
+                    <p id='radio3' className='radio' onClick={handleBackThisProject3}></p>
                     <div className='productNameAndPledgeThreshold'>
                         <p style={{fontWeight: 700}}>{props.data3.name}</p>
                         <p className='productPledgeThreshold' style={{fontWeight: 700}}>{props.data3.threshold}</p>
@@ -125,7 +133,7 @@ const BackthisProject = (props) =>{
         <div className='backThisProject' id='backThisProject4'>
             <div className='productInfo'>
                 <div className='productNamePledgeAndCount'>
-                    <p className='radio' onClick={handleBackThisProject4}></p>
+                    <p id='radio4' className='radio' onClick={handleBackThisProject4}></p>
                     <div className='productNameAndPledgeThreshold'>
                         <p style={{fontWeight: 700}}>{props.data4.name}</p>
                         <p className='productPledgeThreshold' style={{fontWeight: 700}}>{props.data4.threshold}</p>

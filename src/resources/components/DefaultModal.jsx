@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import '../stylesheets/defaultModal.css';
 import logo from '../images/logo-mastercraft.svg';
 import bookmark from '../images/icon-bookmark.svg';
